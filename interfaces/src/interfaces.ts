@@ -29,6 +29,7 @@ const BurguerKing: ILojaProps = {
 
 // novaLoja("Burguer King", "Rua das Flores, 123", true);
 
+// Função que recebe um objeto do tipo ILojaProps e retorna o nome, endereço e status da loja.
 function novaLoja({ nome, endereco, status }: ILojaProps): void {
   console.log(`\nNome: ${nome}\nEndereço: ${endereco}\nStatus: ${status}\n`);
 }
